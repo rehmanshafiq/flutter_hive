@@ -1,16 +1,20 @@
-# flutter_hive
+# 📝 Note To-Do App
 
-A new Flutter project.
+A simple and efficient Note To-Do app built using Flutter and Hive for fast, lightweight local data persistence. This app allows users to add, update, delete, and mark notes or tasks as completed—all stored locally using Hive boxes.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Add, edit, and delete notes/to-do items
+- Local data persistence with Hive
+- Clean and responsive UI using Flutter
+- Uses `hive` and `hive_flutter` for seamless integration
 
-A few resources to get you started if this is your first Flutter project:
+## 📦 Dependencies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.0 # Required for Hive initialization
